@@ -4,7 +4,6 @@ import urllib2
 from bs4 import BeautifulSoup
 import re
 
-
 def get_rt_results(query):
   key = '8xqcbp2rqrq4df4t98rzcqnh'
   url = "http://api.rottentomatoes.com/api/public/v1.0/movies.json?apikey=" + key + "&q=" + query + "&page_limit=1"
